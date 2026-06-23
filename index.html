@@ -6,6 +6,7 @@
   <title>YouTube</title>
   <link rel="stylesheet" href="style.css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="test.css">
    <link rel="icon" href="profiles/R.png">
 </head>
 <body>
@@ -139,9 +140,20 @@
         </div>
           <div class="video-grid">
               <div class="video">
-                  <div class="thumbnail thumbnail-container">
+                <input type="checkbox" id="comment-1" class="visually-hidden comment-toggle" />
+                  <div class="thumbnail thumbnail-container thumbnail-wrapper">
                       <img  src="thumbnails/BroCode-Thumbnail.avif" alt="">
                       <span class="duration">04:02:43</span>
+
+                      <div class="reaction-tooltip">
+                          <button type="button" class="reaction-btn" aria-label="Love">❤️<span class="reaction-label">Love</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Like">👍<span class="reaction-label">Like</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Dislike">👎<span class="reaction-label">Dislike</span></button>
+                          <div class="reaction-divider"></div>
+                          <label for="comment-1" class="reaction-btn comment-btn" aria-label="Comment">✏️<span class="reaction-label">Comment</span></label>
+                      </div>
+
+
                   </div>
                   <div class="details">
                     <div class="profile">
@@ -153,29 +165,79 @@
                       <p class="views-period">64K views &middot; 5 years ago</p>
                     </div>
                   </div>
+
+                  <div class="comment-dialog">
+                    <label for="comment-1" class="comment-dialog-backdrop" aria-label="Close"></label>
+                    <div class="comment-dialog-panel">
+                      <h4 class="comment-dialog-title">Add a comment</h4>
+                      <textarea class="comment-textarea" placeholder="Write your comment..." rows="3"></textarea>
+                      <div class="comment-dialog-actions">
+                        <label for="comment-1" class="btn-secondary">Cancel</label>
+                        <label for="comment-1" class="btn-primary">Submit</label>
+                      </div>
+                    </div>
+                  </div>
+
+
               </div>
 
                   <div class="video">
-                  <div class="thumbnail thumbnail-container">
+                    <input type="checkbox" id="comment-1" class="visually-hidden comment-toggle" />
+                  <div class="thumbnail thumbnail-container thumbnail-wrapper">
                       <img src="thumbnails/codecamp-Thumbnail.avif" alt="">
                       <span class="duration">01:54:23</span>
+                      
+                      <div class="reaction-tooltip">
+                          <button type="button" class="reaction-btn" aria-label="Love">❤️<span class="reaction-label">Love</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Like">👍<span class="reaction-label">Like</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Dislike">👎<span class="reaction-label">Dislike</span></button>
+                          <div class="reaction-divider"></div>
+                          <label for="comment-1" class="reaction-btn comment-btn" aria-label="Comment">✏️<span class="reaction-label">Comment</span></label>
+                      </div>
+
+
                   </div>
                   <div class="details">
                     <div class="profile">
                       <img class="pp" src="profiles/codecamp.jpg" alt="">
                     </div>
                     <div class="video-title">
-                      <p class="headline">JavaScrip Course for Beginners</p>
+                      <p class="headline">JavaScript Course for Beginners</p>
                       <p class="author">FreeCodeCamp</p>
                       <p class="views-period">708K views &middot; 2 years ago</p>
                     </div>
                   </div>
+                  <div class="comment-dialog">
+                    <label for="comment-1" class="comment-dialog-backdrop" aria-label="Close"></label>
+                    <div class="comment-dialog-panel">
+                      <h4 class="comment-dialog-title">Add a comment</h4>
+                      <textarea class="comment-textarea" placeholder="Write your comment..." rows="3"></textarea>
+                      <div class="comment-dialog-actions">
+                        <label for="comment-1" class="btn-secondary">Cancel</label>
+                        <label for="comment-1" class="btn-primary">Submit</label>
+                      </div>
+                    </div>
+                  </div>
+
+
+
               </div>
 
               <div class="video">
-                  <div class="thumbnail thumbnail-container">
+                <input type="checkbox" id="comment-1" class="visually-hidden comment-toggle" />
+                  <div class="thumbnail thumbnail-container thumbnail-wrapper">
                       <img src="thumbnails/kervin-Thumbnail.avif" alt="">
                       <span class="duration">01:04:13</span>
+
+                      <div class="reaction-tooltip">
+                          <button type="button" class="reaction-btn" aria-label="Love">❤️<span class="reaction-label">Love</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Like">👍<span class="reaction-label">Like</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Dislike">👎<span class="reaction-label">Dislike</span></button>
+                          <div class="reaction-divider"></div>
+                          <label for="comment-1" class="reaction-btn comment-btn" aria-label="Comment">✏️<span class="reaction-label">Comment</span></label>
+                      </div>
+
+
                   </div>
                   <div class="details">
                     <div class="profile">
@@ -187,12 +249,38 @@
                       <p class="views-period">44K views &middot; 3 days ago</p>
                     </div>
                   </div>
+
+                  <div class="comment-dialog">
+                    <label for="comment-1" class="comment-dialog-backdrop" aria-label="Close"></label>
+                    <div class="comment-dialog-panel">
+                      <h4 class="comment-dialog-title">Add a comment</h4>
+                      <textarea class="comment-textarea" placeholder="Write your comment..." rows="3"></textarea>
+                      <div class="comment-dialog-actions">
+                        <label for="comment-1" class="btn-secondary">Cancel</label>
+                        <label for="comment-1" class="btn-primary">Submit</label>
+                      </div>
+                    </div>
+                  </div>
+
+
+
               </div> 
 
               <div class="video">
-                  <div class="thumbnail thumbnail-container">
+                <input type="checkbox" id="comment-1" class="visually-hidden comment-toggle" />
+                  <div class="thumbnail thumbnail-container thumbnail-wrapper">
                       <img src="thumbnails/futurefullstack-Thumbnail.avif" alt="">
                       <span class="duration">04:50:20</span>
+
+                      <div class="reaction-tooltip">
+                          <button type="button" class="reaction-btn" aria-label="Love">❤️<span class="reaction-label">Love</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Like">👍<span class="reaction-label">Like</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Dislike">👎<span class="reaction-label">Dislike</span></button>
+                          <div class="reaction-divider"></div>
+                          <label for="comment-1" class="reaction-btn comment-btn" aria-label="Comment">✏️<span class="reaction-label">Comment</span></label>
+                      </div>
+
+
                   </div>
                   <div class="details">
                     <div class="profile">
@@ -204,29 +292,80 @@
                       <p class="views-period">452K views &middot; 1 year ago</p>
                     </div>
                   </div>
+
+                  <div class="comment-dialog">
+                    <label for="comment-1" class="comment-dialog-backdrop" aria-label="Close"></label>
+                    <div class="comment-dialog-panel">
+                      <h4 class="comment-dialog-title">Add a comment</h4>
+                      <textarea class="comment-textarea" placeholder="Write your comment..." rows="3"></textarea>
+                      <div class="comment-dialog-actions">
+                        <label for="comment-1" class="btn-secondary">Cancel</label>
+                        <label for="comment-1" class="btn-primary">Submit</label>
+                      </div>
+                    </div>
+                  </div>
+
+
+
               </div> 
 
               <div class="video">
-                  <div class="thumbnail thumbnail-container">
+                <input type="checkbox" id="comment-1" class="visually-hidden comment-toggle" />
+                  <div class="thumbnail thumbnail-container thumbnail-wrapper">
                       <img src="thumbnails/Scrimba-Thumbnail.avif" alt="">
                       <span class="duration">01:34:33</span>
+
+                      <div class="reaction-tooltip">
+                          <button type="button" class="reaction-btn" aria-label="Love">❤️<span class="reaction-label">Love</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Like">👍<span class="reaction-label">Like</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Dislike">👎<span class="reaction-label">Dislike</span></button>
+                          <div class="reaction-divider"></div>
+                          <label for="comment-1" class="reaction-btn comment-btn" aria-label="Comment">✏️<span class="reaction-label">Comment</span></label>
+                      </div>
+
+
                   </div>
                   <div class="details">
                     <div class="profile">
                       <img class="pp" src="profiles/scrimba.jpg" alt="">
                     </div>
                     <div class="video-title">
-                      <p class="headline">Become a Fullstack Developer from Scatch - Full Beginner's Tutorial</p>
+                      <p class="headline">Become a Fullstack Developer from Scratch - Full Beginner's Tutorial</p>
                       <p class="author">Scrimba</p>
                       <p class="views-period">1.2M views &middot; 8 months ago</p>
                     </div>
                   </div>
+
+                  <div class="comment-dialog">
+                    <label for="comment-1" class="comment-dialog-backdrop" aria-label="Close"></label>
+                    <div class="comment-dialog-panel">
+                      <h4 class="comment-dialog-title">Add a comment</h4>
+                      <textarea class="comment-textarea" placeholder="Write your comment..." rows="3"></textarea>
+                      <div class="comment-dialog-actions">
+                        <label for="comment-1" class="btn-secondary">Cancel</label>
+                        <label for="comment-1" class="btn-primary">Submit</label>
+                      </div>
+                    </div>
+                  </div>
+
+
               </div> 
 
               <div class="video">
-                  <div class="thumbnail thumbnail-container">
+                <input type="checkbox" id="comment-1" class="visually-hidden comment-toggle" />
+                  <div class="thumbnail thumbnail-container thumbnail-wrapper">
                       <img src="thumbnails/fnbAppAcademy2025-Thumbnail.jpg" alt="">
                       <span class="duration">02:54:23</span>
+
+                      <div class="reaction-tooltip">
+                          <button type="button" class="reaction-btn" aria-label="Love">❤️<span class="reaction-label">Love</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Like">👍<span class="reaction-label">Like</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Dislike">👎<span class="reaction-label">Dislike</span></button>
+                          <div class="reaction-divider"></div>
+                          <label for="comment-1" class="reaction-btn comment-btn" aria-label="Comment">✏️<span class="reaction-label">Comment</span></label>
+                      </div>
+
+
                   </div>
                   <div class="details">
                     <div class="profile">
@@ -238,13 +377,38 @@
                       <p class="views-period">16K views &middot; 1 year ago</p>
                     </div>
                   </div>
+
+                  <div class="comment-dialog">
+                    <label for="comment-1" class="comment-dialog-backdrop" aria-label="Close"></label>
+                    <div class="comment-dialog-panel">
+                      <h4 class="comment-dialog-title">Add a comment</h4>
+                      <textarea class="comment-textarea" placeholder="Write your comment..." rows="3"></textarea>
+                      <div class="comment-dialog-actions">
+                        <label for="comment-1" class="btn-secondary">Cancel</label>
+                        <label for="comment-1" class="btn-primary">Submit</label>
+                      </div>
+                    </div>
+                  </div>
+
+
               </div> 
 
           
               <div class="video">
-                  <div class="thumbnail thumbnail-container">
+                <input type="checkbox" id="comment-1" class="visually-hidden comment-toggle" />
+                  <div class="thumbnail thumbnail-container thumbnail-wrapper">
                       <img src="thumbnails/zaio-Thumbnail.avif" alt="">
                       <span class="duration">02:54:23</span>
+
+                      <div class="reaction-tooltip">
+                          <button type="button" class="reaction-btn" aria-label="Love">❤️<span class="reaction-label">Love</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Like">👍<span class="reaction-label">Like</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Dislike">👎<span class="reaction-label">Dislike</span></button>
+                          <div class="reaction-divider"></div>
+                          <label for="comment-1" class="reaction-btn comment-btn" aria-label="Comment">✏️<span class="reaction-label">Comment</span></label>
+                      </div>
+
+
                   </div>
                   <div class="details">
                     <div class="profile">
@@ -256,12 +420,37 @@
                       <p class="views-period">232 views &middot; 11 months ago</p>
                     </div>
                   </div>
+
+                  <div class="comment-dialog">
+                    <label for="comment-1" class="comment-dialog-backdrop" aria-label="Close"></label>
+                    <div class="comment-dialog-panel">
+                      <h4 class="comment-dialog-title">Add a comment</h4>
+                      <textarea class="comment-textarea" placeholder="Write your comment..." rows="3"></textarea>
+                      <div class="comment-dialog-actions">
+                        <label for="comment-1" class="btn-secondary">Cancel</label>
+                        <label for="comment-1" class="btn-primary">Submit</label>
+                      </div>
+                    </div>
+                  </div>
+
+
               </div>
 
               <div class="video">
-                  <div class="thumbnail thumbnail-container">
+                <input type="checkbox" id="comment-1" class="visually-hidden comment-toggle" />
+                  <div class="thumbnail thumbnail-container thumbnail-wrapper">
                       <img class="video-player-thumbnail-8" src="thumbnails/supersimpleDev-Thumbnail.avif" alt="">
                       <span class="duration">04:51:03</span>
+
+                      <div class="reaction-tooltip">
+                          <button type="button" class="reaction-btn" aria-label="Love">❤️<span class="reaction-label">Love</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Like">👍<span class="reaction-label">Like</span></button>
+                          <button type="button" class="reaction-btn" aria-label="Dislike">👎<span class="reaction-label">Dislike</span></button>
+                          <div class="reaction-divider"></div>
+                          <label for="comment-1" class="reaction-btn comment-btn" aria-label="Comment">✏️<span class="reaction-label">Comment</span></label>
+                      </div>
+
+
                   </div>
                   <div class="details">
                     <div class="profile">
@@ -273,6 +462,20 @@
                       <p class="views-period">18M views &middot; 4 years ago</p>
                     </div>
                   </div>
+
+                  <div class="comment-dialog">
+                    <label for="comment-1" class="comment-dialog-backdrop" aria-label="Close"></label>
+                    <div class="comment-dialog-panel">
+                      <h4 class="comment-dialog-title">Add a comment</h4>
+                      <textarea class="comment-textarea" placeholder="Write your comment..." rows="3"></textarea>
+                      <div class="comment-dialog-actions">
+                        <label for="comment-1" class="btn-secondary">Cancel</label>
+                        <label for="comment-1" class="btn-primary">Submit</label>
+                      </div>
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
           </div>
